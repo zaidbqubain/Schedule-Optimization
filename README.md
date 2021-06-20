@@ -13,13 +13,14 @@ https://web.ics.purdue.edu/~g1117493
 3) Add classes
 4) Add assignments
 5) Create a student account
-6) Sign into department account
-7) Add the student account to the classes
+6) Sign back into the department account
+7) Add the student account to classes
 8) Sign back into the student’s account
 9) Navigate to schedule
 10) Click optimize
 
 
 # Documentation
-Please see  
+https://github.com/zaidbqubain/Schedule-Optimization/blob/3ec58e6bbac70594bd2b1f492957d0b0c18d0e40/Documentation.pdf
+
 
