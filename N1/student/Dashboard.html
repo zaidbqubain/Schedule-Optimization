@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Dashboard</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="Plugins/daterangepicker/daterangepicker.css"/>
+  <link rel="stylesheet" href="Plugins/select2/css/select2.min.css"/>
+  <link rel="stylesheet" href="Plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css"/>
+</head>
+<body>
+<div class="wrapper">
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+              <div class="panel panel-default">
+                <div class="panel-heading"><h5 style="text-align: center;">Dashboard</h5></div>
+                  <!-- /.content -->
+                    <div class="panel-body">
+                      <div class="row">
+                      <div class="col-sm-6">
+                      <div class="form-group">
+                        <label>From Date:</label>
+
+                        <div class="input-group">
+                          <input type="text" class="form-control float-right" id="Date">
+                        </div>
+                        <!-- /.input group -->
+                      </div>
+                      <!-- /.form group -->
+                      </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="Courses">Courses:</label>
+                            <select id="Courses" class="select2" multiple="multiple" data-placeholder="Select a State" style="width: 100%;">
+
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="AssignementTypes">Assignement Type:</label>
+                            <select id="AssignementTypes" class="select2" multiple="multiple" data-placeholder="Select a State" style="width: 100%;">
+
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="card">
+                          <div class="card-body">
+                            <canvas id="CompletionPerformance" style="height:6  0vh; width:80vw"></canvas>
+                          </div>
+                          <div class="card-body">
+                            <canvas id="CourseTimeDistribution" style="height:6  0vh; width:80vw"></canvas>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <div class="card">
+                          <div class="card-body">
+                            <canvas id="TimeUsage" style="height:6  0vh; width:80vw"></canvas>
+                          </div>
+                          <div class="card-body">
+                            <canvas id="CourseTimeDistribution-b" style="height:6  0vh; width:80vw"></canvas>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.content-wrapper -->
+
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script src="plugins/select2/js/select2.min.js"></script>
+<script src="plugins/chart.js/Chart.min.js"></script>
+<script src="plugins/moment/moment.min.js"></script>
+
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<script src="Scripts/chart1.js"></script>
+<script src="Scripts/chart2.js"></script>
+<script src="Scripts/chart4-a.js"></script>
+<script src="Scripts/chart4-b.js"></script>
+<script src="Scripts/Filters.js"></script>
+
+</body>
+</html>
